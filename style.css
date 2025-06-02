@@ -1,0 +1,128 @@
+:root {
+    --accent-color: #132036;
+    --background-color: #fefcf7;
+    --dark-text-color: #121626;
+    --light-text-color: #fefefe;
+    --duck-color: #f7bd4e;
+}
+
+
+/* Edit Scrollbar */
+
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+
+    /* Debug */
+    /* border: 1px solid red; */
+}
+
+/* Nav */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 5rem;
+
+    background-color: var(--accent-color);
+    color: var(--light-text-color);
+    font-weight: bold;
+
+    z-index: 1000;
+}
+
+#logo-div {
+    display: flex;
+    align-items: center;
+    margin: .5rem 1.7rem;
+
+    font-size: 1.7rem;
+}
+
+#nav-logo {
+    width: 4rem;
+}
+
+#nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin: 0 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--light-text-color);
+}
+
+
+/* Main */
+main {
+    position: absolute;
+    top: 5rem;
+    left: 0;
+
+    width: 100%;
+}
+
+
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-logo {
+    width: 40rem;
+    margin-top: 3rem;
+}
+
+#info-div {
+    text-align: center;
+    color: var(--dark-text-color);
+}
+
+
+
+
+/* Footer */
+footer {
+    display: flex;  /* Position bearbeiten */
+    justify-content: space-between;
+    align-items: center;
+
+    height: 5rem;
+    width: 100vw;
+
+    background-color: var(--accent-color);
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+footer a {
+    font-style: normal;
+    text-decoration: none;
+    color: var(--light-text-color);
+
+    margin: 0 1.7rem;
+}
+
+
+/* Fonts */
+@font-face {
+    font-family: 'Nunito', sans-serif;
+    src: url(fonts/Nunito/Nunito-VariableFont_wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
