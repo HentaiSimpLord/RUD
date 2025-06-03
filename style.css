@@ -72,14 +72,31 @@ nav {
 
 #nav-links {
     display: flex;
-    gap: 2rem;
     list-style: none;
     margin: 0 2rem;
+
+    height: 100%;
+}
+
+nav li {
+    height: 100%;
+    display: flex;
 }
 
 nav a {
     text-decoration: none;
     color: var(--light-text-color);
+    height: 100%;
+
+    padding: 0 1rem;
+
+    display: flex;
+    align-items: center;
+}
+
+nav a:hover {
+    background-color: var(--duck-color);
+    color: var(--dark-text-color);
 }
 
 
@@ -105,6 +122,15 @@ main {
 #info-div {
     text-align: center;
     color: var(--dark-text-color);
+}
+
+#welcome-section h1 {
+    font-size: 2.4rem;
+}
+
+#welcome-info {
+    margin-top: .6rem;
+    line-height: 1.3rem;
 }
 
 /* Importent Button Section */
