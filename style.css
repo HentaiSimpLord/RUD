@@ -53,6 +53,7 @@ nav {
 
     background-color: var(--accent-color);
     color: var(--light-text-color);
+    box-shadow: var(--box-shadow-settings);
     font-weight: bold;
 
     z-index: 1000;
@@ -281,7 +282,7 @@ main {
 #forum-container-div {
     box-shadow: var(--box-shadow-settings);
     border-radius: .5rem;
-    width: 90vw;
+    width: 92.5vw;
     display: flex;
     justify-content: space-around;
 
@@ -347,6 +348,8 @@ footer {
   color: var(--light-text-color);
   font-size: 0.9rem;
 
+  height: 5rem;
+
   margin-top: 1rem;
 
   display: flex;
@@ -357,8 +360,19 @@ footer a {
     font-style: normal;
     text-decoration: none;
     color: var(--light-text-color);
+    display: flex;
+    align-items: center;
 
-    margin: 1.5rem 1.5rem;
+    height: 100%;
+
+    padding: 0 1.5rem;
+
+    margin: 0rem 1.5rem;
+}
+
+footer a:hover {
+    background-color: var(--duck-color);
+    color: var(--dark-text-color);
 }
 
 
