@@ -18,7 +18,12 @@
     padding: 0;
 
     /* Debug */
-    /* border: 1px solid red; */
+    border: 1px solid red;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
 }
 
 /* Nav */
@@ -67,10 +72,6 @@ nav a {
 
 /* Main */
 main {
-    position: absolute;
-    top: 5rem;
-    left: 0;
-
     width: 100%;
 }
 
@@ -83,7 +84,7 @@ main {
 
 #main-logo {
     width: 40rem;
-    margin-top: 3rem;
+    margin-top: 8rem;
 }
 
 #info-div {
@@ -96,18 +97,14 @@ main {
 
 /* Footer */
 footer {
-    display: flex;  /* Position bearbeiten */
-    justify-content: space-between;
-    align-items: center;
+  background-color: var(--accent-color);
+  color: var(--light-text-color);
+  font-size: 0.9rem;
 
-    height: 5rem;
-    width: 100vw;
+  margin-top: 5rem;
 
-    background-color: var(--accent-color);
-
-    position: fixed;
-    bottom: 0;
-    left: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 footer a {
@@ -115,7 +112,7 @@ footer a {
     text-decoration: none;
     color: var(--light-text-color);
 
-    margin: 0 1.7rem;
+    margin: 1.5rem 1.5rem;
 }
 
 
