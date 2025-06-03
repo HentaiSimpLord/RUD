@@ -11,6 +11,8 @@ const presentationBtn = document.getElementById("presentation-div");
 const memesAndScreenshotsBtn = document.getElementById("memes-and-screenshots-div");
 const discordBtn = document.getElementById("join-discord-btn");
 
+const logoBtn = document.getElementById("logo-div");
+
 
 // EventListener
 joinClanBtn.addEventListener("click", () => {
@@ -45,4 +47,8 @@ memesAndScreenshotsBtn.addEventListener("click", () => {
 });
 discordBtn.addEventListener("click", () => {
     window.location.href = "https://discord.gg/Xcd23pGKfC"
+});
+
+logoBtn.addEventListener("click", () => {
+    window.location.href = "index.html"  // Unfinished
 });

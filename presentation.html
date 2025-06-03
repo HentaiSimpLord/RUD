@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>RUD</title>
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="uppercase">
+            <a href="index.html" id="logo-a">
+                <img src="pictures/logo-no-text.png" alt="logo" id="nav-logo">
+                <!-- <p>Royal United Ducks</p> -->
+            </a>
+            <ul id="nav-links">
+                <li><a href="news.html">News</a></li>
+                <li><a href="clans.html">Familie</a></li>
+                <li><a href="clanwar.html">Clankriege</a></li>
+                <li><a href="#forum-section">Forum</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="welcome-section">
+                <p id="welcome-text" class="centerd-text">
+                    Schön, dass du da bist! Hier bekommst du einen Einblick <br>
+                    in unsere Clan-Familie – wer wir sind, wie wir spielen und was uns verbindet. <br>
+                    Bevor du unsere Mitglieder kennenlernen kannst, stell dich bitte kurz vor. <br>
+                    Füll dazu einfach das Formular aus. Sobald du das getan hast, <br>
+                    wird dir die Übersicht aller Spieler freigeschaltet.
+                </p>
+            </section>
+            <section id="formular-section">
+                <h1 id="presentation-title" class="centerd-text">Stell dich kurz vor</h1>
+                <div id="formular-div">
+                    <label for="playername-input">Spielername *</label>
+                    <input type="text" id="playername-input">
+                    <label for="age-input">Alter</label>
+                    <input type="number" id="age-input">
+                    <label for="coc-account-input">Dein Account *</label>
+                    <input type="coc-acc" id="coc-account-input">
+                    <label for="why-rud">Warum RUD?</label>
+                    <input type="text" id="why-rud">
+                    <div id="privacy-policy-div">
+                        <input type="checkbox" id="privacy-policy-input">
+                        <label for="privacy-policy-input">Ich akzeptiere die Datenschutzerklärung *</label>
+                    </div>
+
+                    <!-- Unfinished -->
+
+                    <button id="submit-formular-btn">Einreichen</button>
+                </div>
+            </section>
+            <section id="player-overview"></section>
+        </main>
+        <footer class="uppercase">
+            <a href="about-us.html">Über uns</a>
+            <a href="contact.html">Kontakt</a>
+        </footer>
+
+        <script src="main.js"></script>
+    </body>
+</html>
