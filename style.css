@@ -268,6 +268,51 @@ main {
 
 
 
+/* Forum Section */
+#forum-section-title {
+    margin: 3rem 0rem 1.5rem 2rem;
+}
+
+#forum-section {
+    display: flex;
+    justify-content: center;
+}
+
+#forum-container-div {
+    box-shadow: var(--box-shadow-settings);
+    border-radius: .5rem;
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+
+    background-color: white;
+
+    padding: 2.5rem;
+}
+
+#forum-container-div hr {
+    border: .1rem solid rgba(20, 32, 53, 0.3)
+}
+
+#announcement-div, #tactical-tipps-div, #presentation-div, #memes-and-screenshots-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#announcement-div:hover, #tactical-tipps-div:hover, #presentation-div:hover, #memes-and-screenshots-div:hover {
+    box-shadow: var(--box-shadow-settings);
+}
+
+.forum-logo {
+    height: 8rem;
+    background-color: white;
+}
+
+.forum-undertitle {
+    text-align: center;
+}
+
 /* Footer */
 footer {
   background-color: var(--accent-color);
