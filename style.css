@@ -295,23 +295,51 @@ main {
 }
 
 #announcement-div, #tactical-tipps-div, #presentation-div, #memes-and-screenshots-div {
+    border-radius: .3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-weight: bold;
 }
 
 #announcement-div:hover, #tactical-tipps-div:hover, #presentation-div:hover, #memes-and-screenshots-div:hover {
-    box-shadow: var(--box-shadow-settings);
+    background-color: var(--duck-color);
 }
 
 .forum-logo {
     height: 8rem;
-    background-color: white;
 }
 
 .forum-undertitle {
     text-align: center;
 }
+
+
+/* Discord Section */
+#discord-section {
+    display: flex;
+    justify-content: center;
+}
+
+#join-discord-btn {
+    margin: 3rem;
+    padding: .6rem 1.4rem;
+
+    border-radius: .3rem;
+    border: none;
+
+    background-color: var(--duck-color);
+    color: var(--dark-text-color);
+    box-shadow: var(--box-shadow-settings);
+    font-size: 1.2rem;
+}
+
+#join-discord-btn:hover {
+    background-color: var(--accent-color);
+    color: var(--light-text-color);
+}
+
+
 
 /* Footer */
 footer {
@@ -319,7 +347,7 @@ footer {
   color: var(--light-text-color);
   font-size: 0.9rem;
 
-  margin-top: 5rem;
+  margin-top: 1rem;
 
   display: flex;
   justify-content: space-between;
