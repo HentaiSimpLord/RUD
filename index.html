@@ -9,7 +9,7 @@
         
     </head>
     <body>
-        <nav>
+        <nav class="uppercase">
             <div id="logo-div">
                 <img src="pictures/logo-no-text.png" alt="logo" id="nav-logo">
                 <!-- <p>Royal United Ducks</p> -->
@@ -27,7 +27,7 @@
                     <img src="pictures/logo.png" alt="" id="main-logo">
                 </div>
                 <div id="info-div">
-                    <h1>Gemeinsam. Stolz. Royal.</h1>
+                    <h1 class="uppercase">Gemeinsam. Stolz. Royal.</h1>
                     <article id="welcome-info">
                         Willkommen auf der offiziellen Seite der Royal United Ducks - <br>
                         einer aktiven und familiären Clan-Gemeinschaft <br>
@@ -35,17 +35,73 @@
                     </article>
                 </div>
             </section>
+
             <section id="importent-button-section">
-                <button id="join-clan-btn">Clan beitreten</button>
-                <button id="calender-btn">Matchkalender</button>
-                <button id="news-btn">Neuigkeiten anzeigen</button>
+                <button id="join-clan-btn" class="uppercase">Clan beitreten</button>
+                <button id="calender-btn" class="uppercase">Matchkalender</button>
+                <button id="news-btn" class="uppercase">Neuigkeiten anzeigen</button>
             </section>
-            <section id="news-section"></section>
+
+            <h1 id="news-section-title">Neuigkeiten</h1>
+            <section id="news-section">
+
+                <div id="upcoming-event-div">
+                    <p class="date-display uppercase">30. Juli 2025</p>
+                    <h2 class="title">Clankriegsliga</h2>
+                    <article class="summary-of-event">
+                        Tägliche Kämpfe, starke Gegner, <br>
+                        ein Ziel: Aufstieg! <br>
+                        Gemeinsam für Ruhm und <br>
+                        Ehre der Ducks.
+                    </article>
+                    <hr>
+                    <button class="read-more-btn uppercase">Mehr lesen</button>
+                </div>
+
+                <div id="second-next-event-div">
+                    <p class="date-display uppercase">24. September 2025</p>
+                    <h2 class="title">Clanspiele</h2>
+                    <article class="summary-of-event">
+                        Missionen meistern, Punkte sammeln, <br>
+                        Belohnungen sichern. <br>
+                        Jeder Beitrag zählt!
+                    </article>
+                    <hr>
+                    <button class="read-more-btn uppercase">Mehr lesen</button>
+                </div>
+
+                <div id="match-preview-div">
+                    <h2 class="title">Clankriege</h2>
+                    <div id="date-and-result-div" class="uppercase">
+                        <p>Datum</p>
+                        <p>Ergebnis</p>
+                    </div>
+                    <div id="upcoming-war-div">
+                        <p class="date-display uppercase">25. Juli 2025</p>
+                        <div class="war-div">
+                            <p id="name">KQ Event vs. ...</p>
+                            <p>-</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div id="last-war-div">
+                        <p class="date-display uppercase">10. Juli</p>
+                        <div class="war-div">
+                            <p id="name">Mahatma Gönndir vs. ...</p>
+                            <p>42 - 35</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <button class="read-more-btn uppercase">Mehr lesen</button>
+                </div>
+            </section>
+
             <section id="forum-section"></section>
+
             <section id="discord-section"></section>
         </main>
 
-        <footer>
+        <footer class="uppercase">
             <a href="">Über uns</a>
             <a href="">Kontakt</a>
         </footer>
